@@ -1,8 +1,13 @@
 aid: ecovacs-robotics
 name: ECOVACS Robotics
-description: 'ECOVACS Robotics is a company surfaced as a portfolio company of idg-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer-technology. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'ECOVACS Robotics is a global home service robotics company founded in 1998 and headquartered
+  in Suzhou, China, that designs, manufactures, and sells AI-powered autonomous cleaning devices for
+  consumer and commercial use. Its product families include DEEBOT robotic vacuum and mopping robots,
+  WINBOT window-cleaning robots, GOAT robotic lawn mowers, ULTRAMARINE pool-cleaning robots, and the
+  DEEBOT PRO commercial line, all managed through the ECOVACS HOME mobile app. The company was added to
+  the API Evangelist network as a portfolio company of IDG Capital; as of this enrichment pass ECOVACS
+  publishes no public developer API, SDK, or documented API surface — this profile captures its public
+  web, support, and legal properties plus a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/ecovacs-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - idg-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://site-static.ecovacs.com/v4/static/og.jpg
 tags:
 - Company
 - Consumer Technology
+- Robotics
+- Home Automation
+- Smart Home
+- Robot Vacuum
+- IoT
+- Consumer Electronics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://ecovacs.com/
+  url: https://www.ecovacs.com/global
+- type: Support
+  url: https://help.ecovacs.com/global/support
+- type: Blog
+  url: https://www.ecovacs.com/global/newsroom
+- type: PrivacyPolicy
+  url: https://www.ecovacs.com/global/privacy-policy
+- type: TermsOfService
+  url: https://www.ecovacs.com/global/terms-of-use
+- type: DomainSecurity
+  url: security/ecovacs-robotics-domain-security.yml
+- type: LLMsTxt
+  url: llms/ecovacs-robotics-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

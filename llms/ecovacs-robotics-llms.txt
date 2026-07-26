@@ -1,0 +1,16 @@
+# ECOVACS Robotics
+
+> ECOVACS Robotics is a global home service robotics company (founded 1998, Suzhou, China) that designs and sells AI-powered autonomous cleaning devices — DEEBOT robot vacuums, WINBOT window cleaners, GOAT robotic lawn mowers, and ULTRAMARINE pool cleaners — managed through the ECOVACS HOME app. As of this profile, ECOVACS publishes no public developer API, SDK, or documented API surface. This llms.txt was generated from the API Evangelist catalog entry, not from a provider-published llms.txt.
+
+## Web
+- [Website](https://www.ecovacs.com/global): ECOVACS global home site and product catalog
+- [Newsroom](https://www.ecovacs.com/global/newsroom): Company news and press releases
+- [Support / Help Center](https://help.ecovacs.com/global/support): Product support and help articles
+
+## Legal
+- [Privacy Policy](https://www.ecovacs.com/global/privacy-policy)
+- [Terms of Use](https://www.ecovacs.com/global/terms-of-use)
+
+## Notes
+- No public developer API, OpenAPI/AsyncAPI spec, first-party SDK, MCP server, or documented OAuth surface was found during enrichment.
+- Device control is handled by the closed ECOVACS HOME mobile application; any programmatic access is via unofficial/community reverse-engineered libraries, not first-party.

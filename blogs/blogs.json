@@ -1,0 +1,14 @@
+{
+  "repo": "ecovacs-robotics",
+  "feeds": [
+    {
+      "source": "https://help.ecovacs.com/global/support",
+      "feed_url": "https://help.ecovacs.com/global/support",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
